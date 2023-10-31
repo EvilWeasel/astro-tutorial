@@ -3,11 +3,16 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "bunx --bun astro dev",
-    "start": "bunx --bun astro dev",
-    "build": "bunx --bun astro build",
-    "preview": "bunx --bun astro preview",
-    "astro": "bunx --bun astro"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "bunx --bun astro",
+    "bundev": "bunx --bun astro dev",
+    "bunstart": "bunx --bun astro dev",
+    "bunbuild": "bunx --bun astro build",
+    "bunpreview": "bunx --bun astro preview",
+    "bunastro": "bunx --bun astro"
   },
   "dependencies": {
     "astro": "^3.4.0"
