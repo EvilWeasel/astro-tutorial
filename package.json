@@ -11,5 +11,8 @@
   },
   "dependencies": {
     "astro": "^3.4.0"
-  }
+  },
+  "trustedDependencies": [
+    "sharp"
+  ]
 }
