@@ -1,0 +1,19 @@
+---
+const platform = "github";
+const username = "evilweasel";
+import Social from "./Social.astro";
+---
+
+<footer>
+  <Social platform="github" username="evilweasel" />
+  <Social platform="mastodon" tld="online" username="@evilweasel"/>
+</footer>
+
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
