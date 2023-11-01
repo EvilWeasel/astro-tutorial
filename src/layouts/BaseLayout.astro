@@ -3,6 +3,7 @@ const { pageTitle } = Astro.props;
 import "../styles/global.css";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import { ViewTransitions } from "astro:transitions";
 ---
 
 <html lang="en">
@@ -18,11 +19,12 @@ import Header from "../components/Header.astro";
         font-size: 4rem;
       }
     </style>
+    <ViewTransitions />
   </head>
   <body>
     <Header />
 
-    <h1>{pageTitle}</h1>
+    <h1 transition:animate="slide">{pageTitle}</h1>
     <slot />
     <Footer />
     <script>
