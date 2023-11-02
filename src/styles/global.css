@@ -1,6 +1,22 @@
+@font-face {
+  font-family: "GeistMonoVF";
+  src: url("../fonts/GeistMonoVF.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-stretch: 75% 110%;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeistVF";
+  src: url("../fonts/GeistVF.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-stretch: 75% 115%;
+  font-style: normal;
+}
+
+
 html {
   background-color: #f1f5f9;
-  font-family: sans-serif;
+  font-family: GeistVF, sans-serif;
 }
 /* dark mode */
 html.dark {
